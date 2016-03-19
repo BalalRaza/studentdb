@@ -1,0 +1,68 @@
+.nav{
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-right:10px;
+	background-color:#F5F5DC;
+}
+.navbar-default{
+	box-shadow:1px 1px 10px grey;
+}
+li:hover{
+	background-color:#E9E9AF;
+}
+.jumbotron{
+	margin-top:30px;
+}
+
+/*All font declaration here*/
+@font-face{
+	font-family: kiro;
+	src: url(fonts/Kiro%20Extra%20Light.otf);
+	font-weight:normal;
+}
+@font-face{
+	font-family: kiroBold;
+	src: url(fonts/Kiro%20Bold.otf);
+}
+body{
+	font-family:'kiro', 'Tahoma', sans-serif;
+	background-color:#f2f2f2;
+}
+.jumbotron>h1{
+	font-family:'kiro', 'Tahoma', sans-serif;
+}
+#heading{
+	font-family:'kiroBold', 'Tahoma', sans-serif;
+	font-size:40px;
+	text-shadow:2px 2px 15px #bfbfbf;
+}
+.footer{
+	background-color:#6495ed;
+}
+h3{
+	margin-bottom:0px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.names{
+	color:#ffff00;
+}
+.token{
+	color:#fff;
+}
+#headline{
+	border-bottom:2px solid #6495ed;
+}
+label{
+	font-size:18px;
+	padding-top:3px;
+}
+.form-horizontal{
+	margin-top:15px;
+}
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
