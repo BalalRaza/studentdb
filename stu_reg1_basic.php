@@ -33,15 +33,8 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-5 control-label">Hosteller?</label>
-						<div class="radio col-md-1">
-							<label><input type="radio" name="hosteller" />Yes</label>
-						</div>
-						<div class="radio col-md-1">
-							<label><input type="radio" name="hosteller" />No</label>
-						</div>
-						<label class="col-md-2 col-md-offset-1">Semester</label>
-						<div class="col-md-2">
+						<label class="col-md-5 control-label">Semester</label>
+						<div class="col-md-7">
 							<select class="form-control">
 								<option disabled selected>None</option>
 								<?php
